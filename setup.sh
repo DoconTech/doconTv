@@ -39,7 +39,7 @@ echo "@lxpanel --profile LXDE-pi
 @pcmanfm --desktop --profile LXDE-pi
 @xscreensaver -no-splash
 @point-rpi
-@chromium-browser <YOUR-URL-GOES-HERE> --start-fullscreen
+@chromium-browser docon.tv --start-fullscreen
 @xset s noblank
 @xset s off
 @xset -dpms
