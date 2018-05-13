@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "########  Purging unrequired packages ########"
+echo "#######  Purging unrequired packages ########"
 yes | sudo apt-get remove --purge wolfram-engine scratch nuscratch sonic-pi idle3 smartsim penguinspuzzle java-common minecraft-pi python-minecraftpi python3-minecraftpi
 yes | sudo apt-get autoremove
 yes | sudo apt-get autoclean
