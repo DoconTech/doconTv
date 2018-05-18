@@ -46,8 +46,8 @@ echo "@lxpanel --profile LXDE-pi
 @unclutter -idle 0.1 -root" > $AUTOSTART_FILE
 
 echo "########  Creating desktop shortcut  ########"
-echo "chromium-browser <YOUR-URL-GOES-HERE> --start-fullscreen" > ~/Desktop/<SHORTCUT-NAME>.sh
-sudo chmod ugo+x ~/Desktop/<SHORTCUT-NAME>.sh
+echo "chromium-browser docon.tv --start-fullscreen" > ~/Desktop/tv.sh
+sudo chmod ugo+x ~/Desktop/tv.sh
 
 echo "########  Setting cron to prevent Chromium Restore dialog on every ungraceful reboot ########"
 echo "sudo sed -i 's/\"exited_cleanly\":false/\"exited_cleanly\":true/' ~/.config/chromium/Default/Preferences
